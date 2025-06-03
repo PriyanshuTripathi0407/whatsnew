@@ -7,7 +7,7 @@ import axios from 'axios';
 import NewsModel from './NewsModel';
 import Bookmark from './Bookmark';
 import Button from '@mui/material/Button';
-import v1 from '../Video/Django Tutorial In Hindi.mp4'
+
 
 const categories = ["general", "world", "business", "technology", "entertainment", "science", "health", "nation", "sports"];
 
