@@ -1,0 +1,96 @@
+.modal_overlay{
+    position: relative;
+    /* inset: 0; */
+    background-color: rgba(0,0,0,.7);
+    /* background-color: transparent; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    z-index:1000;
+}
+
+.modal-content{
+    z-index: 1000;
+    border: 2px solid white;
+    width: 50%;
+    /* max-width: 100rem; */
+    height: 83vh;
+    max-height: 100%;
+    background-color: #111214;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5rem 4rem rgba(0,0,0,.5);
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+}
+
+.modal-content:hover{cursor: pointer;}
+
+.close-button{
+    position: absolute;
+    top: 0rem;
+    right: 0.5rem;
+    font-size: 2rem;
+    color: #fff;   
+}
+
+
+.close-button:hover{cursor: pointer; color: gold;}
+
+.modal-image{
+    width: 100%;
+    height: auto;
+    max-height: 25rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    opacity: 5;
+}
+
+.modal-title{
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: .1rem;
+    margin-top: 1rem;
+}
+
+.modal-title:hover{color: #0258f8; cursor: pointer;}
+
+.modal-source{
+    font-family: "Kanit";
+    font-size: 1.4rem;
+    color: #bbb;
+    margin-top: 1rem;
+}
+
+.modal-date{
+    font-family: "Kanit";
+    font-size: 1.4rem;
+    color: #bbb;
+}
+
+.modal-content-text{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    color: #ddd;
+}
+
+.read-more{
+    position: absolute;
+    width: 12rem;
+    bottom:0.5rem ;
+    right: 1rem;
+    background: linear-gradient(to right, #f8fc8e, #68f499);
+    font-weight: bold;
+    color: #000;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.read-more:active{
+    transform: translateY(.1rem);
+}
